@@ -16,7 +16,7 @@ In this project we are going to be building a news feed reader. The goal is to h
   * Run `less-watch-compiler less css index.less` from the top level of the Newsfeed-Components folder. 
   * Open index.html in your browser
 
-### Part 1: The Menu
+### Part 1: The Menugit
 
 * Import `Menu.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
 * Follow the instructions found in the Menu.js file to complete the JavaScript functionality.  NOTE: Start near the bottom of the page by looking for `const menu`.
@@ -58,4 +58,9 @@ Note: Just a reminder the stretch goals are just extra practice using the tools 
   
   Create a function that builds Article components. You are not expected to finish this. This goal is simply an exercise in thinking about how you would implement a function that took some data, created a new Article from it, and appended it to the HTML (without actually writing anything in the HTML file). This is a difficult concept to undertake, but even thinking about how you would implement it will give you a better understanding of how we use frameworks in upcoming sprints. 
 
+  I would imagine that a component constructor would take in a JSON object and spits out the HTML as a clone of what's already written. 
+
+  
+
 * Implement a way to write your own articles using the Component Constructor and some input fields. 
+ 
